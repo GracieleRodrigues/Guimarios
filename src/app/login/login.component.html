@@ -1,0 +1,47 @@
+
+  <div class="container">
+    <form class="form-group">
+      <div class="image-login">
+        <img src="/imagens/logo.png" alt="Logo">
+        <p class="name">Guimarius</p>
+      </div>
+
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+                 placeholder="Endereço de e-mail">
+          <mat-hint>Errors appear instantly!</mat-hint>
+          <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            Digite um e-mail válido
+          </mat-error>
+          <mat-error *ngIf="emailFormControl.hasError('required')">
+            Email is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+
+      </form>
+
+
+          <input type="checkbox" id="conectado" name="conectado">
+          <label for="conectado"> Manter-me conectado</label><br>
+
+
+
+      <button class="button">Entrar</button>
+      <p class="text-1">Esqueceu a senha?</p>
+
+      <h2 class="text-2">Não tem um conta? Cadastre-se <a src="/src/app/cadastrodp/" class="link">aqui</a>.</h2>
+
+    </form>
+  </div>
+
+
