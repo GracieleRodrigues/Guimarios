@@ -1,0 +1,47 @@
+#form {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.input {
+  width: 30%;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 12.5%;
+
+}
+
+
+.button{
+  font-size: 25px;
+  background-color: #33b9ee ;
+  color: white;
+  border-color: #33b9ee;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  margin-top: 3%;
+  margin-left: 45%;
+  display: block;
+
+
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dados-pessoais {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10%;
+}

@@ -1,0 +1,72 @@
+
+#area {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 36%;
+  width: 20%;
+  height: 50%;
+  background-color: white;
+  border-radius: 25px;
+  padding: 120px 100px 120px 25px;
+}
+
+#area #form {
+  position: absolute;
+  display: block;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15%;
+  margin-top: -20%;
+}
+
+
+#area .container1 {
+  width: 90%;
+  font-size: 12px;
+
+}
+
+.button{
+  font-size: 25px;
+  background-color: #33b9ee ;
+  color: white;
+  border-color: #33b9ee;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+ .text-1 {
+  margin-top: 8%;
+  color: #33b9ee;
+  text-align: center;
+}
+.text-2 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.link{
+  color:#33b9ee
+}
+
+.checkbox-1{
+  color: #d3d3d3;
+}
+
+.logo {
+  position:relative;
+  left: 38%;
+  bottom: 100px;
+  width: 80px;
+  margin-top: 10%;
+
+
+ }
+
