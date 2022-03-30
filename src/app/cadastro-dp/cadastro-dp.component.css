@@ -15,10 +15,13 @@
   margin-top: 1%;
   margin-left: 12.5%;
 
+
+
 }
 
 
 .button{
+  text-decoration: none;
   font-size: 25px;
   background-color: #33b9ee ;
   color: white;
@@ -27,21 +30,52 @@
   height: 40px;
   width: 150px;
   margin-top: 3%;
-  margin-left: 45%;
+  margin-left: 43.3%;
   display: block;
-
-
+  text-align: center;
+  padding-top: 1%;
 }
 
 .name {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
+  position: absolute;
+  top: 12%;
+  left: 10%;
 }
 
 .dados-pessoais {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 10%;
+  position: absolute;
+  top: 12%;
+  left: 40%;
+
+
 }
+
+.logo {
+  width: 50px;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+
+}
+
+.dados {
+  margin-top: 17%;
+}
+
+.text1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.login {
+  color: #33b9ee;
+  text-decoration: none;
+}
+
+

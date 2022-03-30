@@ -16,13 +16,16 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
 import { CadastroDpComponent } from './cadastro-dp/cadastro-dp.component';
 import { MatSelectModule, } from '@angular/material/select';
+import {MatStepperModule} from '@angular/material/stepper';
+import { CadastroEnComponent } from './cadastro-en/cadastro-en.component';
+import { FinalizarComponent } from './finalizar/finalizar.component';
 
 
 ;
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, CadastroDpComponent, HomeComponent ],
+  declarations: [AppComponent, LoginComponent, CadastroDpComponent, HomeComponent, CadastroEnComponent, FinalizarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -34,10 +37,11 @@ import { MatSelectModule, } from '@angular/material/select';
     MatCheckboxModule,
     MatMenuModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatStepperModule
 
   ],
   providers: [],
-  bootstrap: [AppComponent, LoginComponent, CadastroDpComponent]
+  bootstrap: [AppComponent, LoginComponent, CadastroDpComponent, CadastroEnComponent, FinalizarComponent]
 })
 export class AppModule { }

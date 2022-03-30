@@ -53,7 +53,8 @@
 }
 
 .link{
-  color:#33b9ee
+  color:#33b9ee;
+  text-decoration: none;
 }
 
 .checkbox-1{

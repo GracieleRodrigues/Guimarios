@@ -2,26 +2,28 @@
 <div id="form">
 <form>
 
-<div class="image-login">
-  <img src="/imagem/logo.jpg" alt="Logo" class="logo">
+<div>
+  <img src="assets/logo.jpg" alt="Logo" class="logo">
   <p class="name">Guimarios</p>
 </div>
 
+
+<div class="dados">
 <p class="dados-pessoais">Dados pessoais</p>
 
   <mat-form-field appearance="fill" class="input">
     <mat-label>Nome</mat-label>
-    <input matInput>
+    <input type="text" matInput>
   </mat-form-field>
 
   <mat-form-field appearance="fill" class="input">
     <mat-label>Data de nascimento</mat-label>
-    <input matInput>
+    <input type="date"  matInput>
   </mat-form-field>
 
   <mat-form-field appearance="fill" class="input">
     <mat-label>Sobrenome</mat-label>
-    <input matInput>
+    <input type="text" matInput>
   </mat-form-field>
 
   <mat-form-field appearance="fill" class="input">
@@ -34,7 +36,7 @@
 
   <mat-form-field appearance="fill" class="input">
     <mat-label>CPF</mat-label>
-    <input matInput>
+    <input type="text" matInput>
   </mat-form-field>
 
   <mat-form-field appearance="fill" class="input">
@@ -45,37 +47,46 @@
     </mat-select>
   </mat-form-field>
 
-  <button class="button">Próximo</button>
+ <!-- <button class="button" ng-click="go(/cadastro-en)">Próximo</button>-->
+ <a class="button" routerLink="//cadastroen">Próximo</a>
+
+ <p class="text1">Já tem cadastro? Faça <a routerLink="//login" class="login">login</a>.</p>
+</div>
 </form>
+
 
 </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
